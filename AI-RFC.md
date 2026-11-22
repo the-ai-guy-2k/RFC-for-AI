@@ -1,15 +1,40 @@
-# The AI RFC — v2
+# The AI RFC — v2.2
 
-**Request for Comments — Version 2**
-Author: Sanil Dale Tison (Tee) · November 21, 2026 · Status: living document — comments welcome, corrections fold into version 3.
+**Request for Comments — Version 2.2**
+Author: Sanil Dale Tison (Tee) · November 21, 2026 · Status: living document — comments welcome, corrections fold into the next version.
 
-**What this is.** A protocol, written in plain words. It defines an AI maturity scale — five levels, no zero — and the setup that runs on it: one person's system for using an AI agent as a participant in his own software, not just a chat he talks to. Anyone can read it, use it as a model, and argue with it. That is what an RFC is for.
+**What this is.** A protocol, written in plain words. It defines an AI experience maturity scale — five levels, no zero — and the setup that runs on it: one person's system for using an AI agent as a participant in his own software, not just a chat he talks to. Anyone can read it, use it as a model, and argue with it. That is what an RFC is for.
 
-**What changed in v2.** The protocol already existed — the Nebula Pack is its core. Version 2 adopts the Pack's 11 sections as the RFC's normative clauses, adds the maturity scale as a new section, and files nine more patterns from the author's work as normative appendices. The numbering is plain 1–5, no zero.
+**What changed in v2.2.** The scale is renamed: "AI maturity" → "AI experience maturity" (author's word, Nov 21 — "AI maturity" is too rigid; the new name covers all three lenses when explaining the levels). Gartner's official term stays "AI maturity model" wherever it is cited — only the author's own scale gets the new name. Nothing else changed.
+
+**What changed in v2.1.** The "Prove this wrong" challenge clause is filed in as the standing rule at the top of the document — approved by the author as a standard for all his docs. Everything else is unchanged from v2.
+
+**What changed in v2.** The protocol already existed — the Nebula Pack is its core. Version 2 adopts the Pack's 11 sections as the RFC's normative clauses, adds the experience maturity scale as a new section, and files nine more patterns from the author's work as normative appendices. The numbering is plain 1–5, no zero.
 
 **Corrected same day (Nov 21):** the level mapping in §4 is flagged as proposed, not the author's words; the line in the sand is spelled out explicitly (done vs next); and the momentum line is added — documenting this RFC is itself what pushes the momentum into level 5. **Numbering resolved (Nov 21, author's pick):** plain 1–5, five levels, no zero — and 5 being a Fibonacci number is the Fibonacci reference (see §12).
 
 > "We need an AI RFC and for someone if there's anyone in the world that could do it is me."
+
+## Prove this wrong
+
+This document is a protocol, not a manifesto. A manifesto asks you to believe it. This asks you to break it.
+
+If you can prove any part of it wrong, say so. If the proof holds, the document changes. That is the rule, and it is the whole point of writing it down.
+
+**This standard binds the author too.** If I am proven wrong by my own rules, the document changes the same way. The pattern protects me from myself — it holds me accountable, not just everyone else.
+
+**What counts as proof:**
+
+- A fact beats a line. Show the fact, the line goes.
+- An opinion has to beat the whole system, not one line. These documents back each other up — a challenge to one line has to survive the lines that support it in the other playbooks. If it does, the system changes. If it doesn't, the challenge fails, and the reason is written down where everyone can see it.
+- Patterns in here are advertised with their caveat: situations change. A pattern is true for the time and place it was proven in. When the time or place changes, the pattern gets re-tested, not defended.
+
+**What this document is not:**
+
+- It is not set in stone. It has slots for modules to be attached, and it is versioned. It updates with the pace of time and society.
+- It is not the Bible. The Bible was good for a point in time and never updated — when the system moved from bartering to money, the instructions didn't move with it, and people kept walking the old path past the fork. This document is built to move.
+
+**How to challenge it:** state the claim, show the proof, say what should change. Challenge it by GitHub issue on the repo, or comment on the distribution PIO (#49). The challenge and the answer both stay on the record — nothing decided in private, nothing erased. The RFC's own version number moves when a challenge lands.
 
 ## 1. Why this exists
 
@@ -119,7 +144,7 @@ Named once, used the same way everywhere in this document.
 - **Continuity store** — the record that carries state between sessions. Saves locally first, then repairs through the day. Corrections keep history; nothing is silently overwritten.
 - **Drippy** — the person's own server. Everything he builds lives on it.
 
-## 4. The maturity scale
+## 4. The AI experience maturity scale
 
 The official term is **AI maturity model**. Gartner's version (AIMM) has five levels: Awareness, Active, Operational, Systemic, Transformational. This scale maps onto it, roughly, but it is its own: five levels, no zero, built for one person using AI, covering the past *and* the future — including a level nobody has reached yet.
 
@@ -266,7 +291,7 @@ Numeric-prefixed folders. Date/version stamps on every document. File-drop as th
 
 ## 12. Open questions
 
-- **Gaps to close.** The Loop Report 5-group format lives only locally and on the Droplet — it needs filing into the shared folder. The GVCA-ACICE verification template lives only locally — same. The maturity scale itself is the new content this RFC adds; everything else in it was already written down somewhere in the author's work.
+- **Gaps to close.** The Loop Report 5-group format lives only locally and on the Droplet — it needs filing into the shared folder. The GVCA-ACICE verification template lives only locally — same. The experience maturity scale itself is the new content this RFC adds; everything else in it was already written down somewhere in the author's work.
 
 ---
-*The AI RFC — v2 · Sanil Dale Tison · November 21, 2026 · Companion page: https://taigtsp.duckdns.org/way-i-use-ai/ · Plain AI, my way.*
+*The AI RFC — v2.2 · Sanil Dale Tison · November 21, 2026 · Companion page: https://taigtsp.duckdns.org/way-i-use-ai/ · Plain AI, my way.*
